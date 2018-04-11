@@ -1,0 +1,39 @@
+TestNG 
+selenium --> It's used for testing the UI functionalities
+TestNG,Junit --> will test your Selenium code
+
+TestNG is like a framework like cucumber
+
+Unit test: Unit testing tool. such as TestNG and Junit uses something called annotation. ---->@Test
+
+
+1. @test :
+[RemoteTestNG] detected TestNG version 6.13.1
+PASSED: testMethod
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Failures: 0, Skips: 0
+
+Assertions --> Methods that will do the verification
+eg. assert.assertEquals ---> It tests if two values matches
+each other
+
+assert.assertTrue --> alwyas expect true, if it's no true it
+fail the test.
+
+
+2. @BeforeMethod
+It runs each time before the @Test method runs
+
+3. @AfterMethod
+
+It runs each time after @Test method runs
+
+
